@@ -1,0 +1,38 @@
+{
+  "version": "0.1",
+  "game_date": "1841.5.12",
+  "goal": "鉄不足を緩和し、建設効率を改善する。",
+  "summary": "工具不足があるため、鉄鉱山と工具工房を小規模に追加する。財政赤字はあるが、借金比率は低い。",
+  "actions": [
+    {
+      "id": "act-001",
+      "type": "build",
+      "priority": 1,
+      "requires_human_approval": false,
+      "reason": "鉄不足を緩和し、建設財価格を下げるため。",
+      "params": {
+        "building": "iron_mine",
+        "state": "Kansai",
+        "levels": 2
+      }
+    },
+    {
+      "id": "act-002",
+      "type": "build",
+      "priority": 2,
+      "requires_human_approval": false,
+      "reason": "工具不足を緩和するため。",
+      "params": {
+        "building": "tooling_workshop",
+        "state": "Kanto",
+        "levels": 1
+      }
+    }
+  ],
+  "rejected_proposals": [
+    {
+      "source": "military_minister",
+      "reason": "現在は戦争中ではなく、財政と工業化を優先するため。"
+    }
+  ]
+}
