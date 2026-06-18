@@ -1,0 +1,49 @@
+{
+  "timestamp": "2026-06-18T00:00:00+09:00",
+  "game": {
+    "date": "1841.5.12",
+    "version": "unknown"
+  },
+  "player": {
+    "country": "JAP",
+    "strategy": "industrialize_without_bankruptcy"
+  },
+  "budget": {
+    "status": "deficit",
+    "balance": -1200,
+    "income": 8200,
+    "expenses": 9400,
+    "gold_reserve": 50000,
+    "debt": 12000,
+    "credit_limit": 100000,
+    "debt_ratio": 0.12
+  },
+  "economy": {
+    "construction_points": 25,
+    "construction_queue_length": 6,
+    "main_bottlenecks": ["iron", "tools"],
+    "expensive_goods": ["iron", "tools", "coal"],
+    "shortages": ["tools"],
+    "recommended_focus": ["iron_mine", "tooling_workshop"]
+  },
+  "politics": {
+    "legitimacy": 55,
+    "radicals": 120000,
+    "loyalists": 80000,
+    "enacting_law": null,
+    "revolution_risk": false
+  },
+  "military": {
+    "battalions": 40,
+    "flotillas": 10,
+    "mobilized": false,
+    "wars": []
+  },
+  "risks": ["budget_deficit", "tools_shortage"],
+  "confidence": {
+    "budget": 0.8,
+    "economy": 0.6,
+    "politics": 0.5,
+    "military": 0.5
+  }
+}
