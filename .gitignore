@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Logs and generated state
+logs/
+state/
+plans/
+extracted/
+*.tmp
+
+# Local Victoria 3 saves
+*.v3
+*.ck3
+*.eu4
+*.hoi4
+
+# Screenshots
+*.png
+*.jpg
+*.jpeg
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
